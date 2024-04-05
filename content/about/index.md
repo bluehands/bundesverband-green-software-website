@@ -1,11 +1,13 @@
 ---
 title: "About"
-description: "A few years ago, while visiting or, rather, rummaging about Notre-Dame, the author of this book found, in an obscure nook of one of the towers, the following word, engraved by hand upon the wall: —ANANKE."
-featured_image: '/images/Victor_Hugo-Hunchback.jpg'
+featured_image: ''
+omit_header_text: true
 menu:
   main:
     weight: 1
 ---
-{{< figure src="/images/Victor_Hugo-Hunchback.jpg" title="Illustration from Victor Hugo et son temps (1881)" >}}
+This Website is about 
 
-_The Hunchback of Notre-Dame_ (French: _Notre-Dame de Paris_) is a French Romantic/Gothic novel by Victor Hugo, published in 1831. The original French title refers to Notre Dame Cathedral, on which the story is centered. English translator Frederic Shoberl named the novel The Hunchback of Notre Dame in 1833 because at the time, Gothic novels were more popular than Romance novels in England. The story is set in Paris, France in the Late Middle Ages, during the reign of Louis XI.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus ligula ac imperdiet venenatis. Suspendisse rhoncus ultrices rhoncus. Etiam et elit quis odio iaculis ornare vitae id arcu. Aliquam ac justo eu sapien laoreet bibendum ac vitae erat. Quisque tincidunt eleifend quam, sit amet ultricies urna maximus et. Integer turpis ante, dapibus sit amet dictum ac, gravida sit amet ligula. Nunc sed condimentum metus. Nam malesuada varius lacus, non sagittis ligula ultricies eget.
+
+Sed at nisi rutrum, egestas nisl nec, tempus nibh. Duis egestas aliquam massa non rhoncus. Aliquam scelerisque nisl eros, quis sollicitudin eros dictum quis. Donec est felis, lacinia a nulla quis, efficitur porta quam. Cras enim augue, ultricies eu sapien a, faucibus consequat augue. Nunc rutrum elit vitae dui dignissim, a dapibus lacus tempor. Integer consectetur rutrum nulla, ac pretium augue auctor sed. In nec pharetra lacus, non viverra mauris. Cras blandit varius accumsan. Duis bibendum dui vel mi condimentum consectetur et at magna. 
