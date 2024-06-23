@@ -1,8 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://bundesverband-green-software.de/'
 languageCode = 'de-de'
 theme = 'ananke'
-title = 'Logo'
-
 
 [params]
   date_format = "2. January 2006"
