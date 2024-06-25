@@ -1,6 +1,0 @@
-baseURL = 'https://bundesverband-green-software.de/'
-languageCode = 'de-de'
-theme = 'ananke'
-
-[params]
-  date_format = "2. January 2006"
