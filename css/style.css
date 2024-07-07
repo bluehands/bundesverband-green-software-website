@@ -175,21 +175,22 @@ html, body {
 #body.home div.header img {
 	display: block;
 	/* left: 50%; */
-	/* margin: 0 auto 0 -563px; */
+	margin: 0;
 	padding: 0;
-	position: absolute;
+	position: relative;
 	max-width: 960px;
 	/* height: auto; */
+	min-height: 660px;
 }
 #body.home div.header div {
 	margin: 0 auto;
 	max-width: 960px;
-	min-height: 660px;
+	height: 660px;
 	padding: 0;
 	position: relative;
 }
 #body.home div.header div a {
-	background: url(../images/icons.png) no-repeat 0 -128px;
+	background: url(../images/icons.webp) no-repeat 0 -128px;
 	color: #FFFFFF;
 	display: block;
 	font-family: quicksand-bold-webfont;
@@ -338,7 +339,7 @@ html, body {
 	width: 220px;
 }
 #body.home div.footer div ul li a {
-	background: url(../images/icons.png) no-repeat;
+	background: url(../images/icons.webp) no-repeat;
 	display: block;
 	height: 44px;
 	margin: 0 auto 22px;
@@ -889,7 +890,7 @@ html, body {
 	padding: 39px 0 0;
 }
 #body.contact div.body div div {
-	background: url(../images/bg-transparent.png) repeat;
+	background: url(../images/bg-transparent.webp) repeat;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 30px 0 35px 133px;
@@ -1056,20 +1057,23 @@ html, body {
 }
 #body div.footer .section p a:hover {
 }
-
-
 /* ADDED FROM DUSTIN */
 
-
 .background-div {
-    background-image: url('../images/backround.png'); /*Path to your image*/
-    background-size: contain; /* Ensure the entire image is visible */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
+    position: relative;
+    width: 100%; /* Set the desired width */
+    height: 100%; /* Set the desired height */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.background-img {
+    object-fit: contain; /* Ensure the entire image is visible */
+	object-position: center;
+	background-size: contain;
 }
 
 #body.impressum {
-    background-color: #1a6c68; /* Light grey background */
+    background-color: #1a6c68; 
     padding: 20px; /* Padding around the content */
     font-family: Verdana, Geneva, Tahoma, sans-serif; /* Font style */
     color: #ffffff; /* Text color */
@@ -1077,7 +1081,7 @@ html, body {
 	font-size: 20px;
 }
 #body.datenschutz {
-    background-color: #1a6c68; /* Light grey background */
+    background-color: #1a6c68; 
     padding: 20px; /* Padding around the content */
     font-family: Verdana, Geneva, Tahoma, sans-serif; /* Font style */
     color: #ffffff; /* Text color */
@@ -1087,9 +1091,7 @@ html, body {
 #body.datenschutz a{
 	color: #ffffff;
 	text-decoration: underline;
-	
 }
-
 /*----------------------------------------footer-styles---------------------------------------*/
 #footer {
     background-color: #b0c95e;
@@ -1098,7 +1100,6 @@ html, body {
     width: 100%;
     text-align: center;
 }
-
 #footer div {
     margin: 0 auto;
     max-width: 960px;
@@ -1128,7 +1129,6 @@ html, body {
 #footer a:hover {
     text-decoration: underline; /* Underline on hover */
 }
-
 /* #footer div .connect {
 	display: block;
 	height: 30px;
@@ -1139,7 +1139,7 @@ html, body {
 	width: 240px;
 }
 #footer div .connect a {
-	background: url(../images/icons.png) no-repeat;
+	background: url(../images/icons.webp) no-repeat;
 	display: block;
 	float: left;
 	height: 30px;
