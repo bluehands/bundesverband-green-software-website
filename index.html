@@ -20,8 +20,18 @@
 		<div id="header">
 			<div>
 				<a href="index.html" class="logo"><img src="images/BVGS_Logo.webp" alt="Logo des Bundesverbands Green Software mit einem grünen Blatt-Symbol, das von zwei spitzen Klammern umgeben ist, und dem Text 'Bundesverband Green Software' in grüner Schrift." width="100" height="50"></a>
-				<!-- <ul id="navigation">
-					<li class="selected">
+				<ul id="navigation">
+					<!-- <li>
+						<a href="aktuelles.html">Aktuelles</a>
+					</li>
+					<li>
+						<a href="wissen.html">Wissen</a>
+					</li> -->
+					<li>
+						<a href="unsere_mitglieder.html">Unsere Mitglieder</a>
+					</li> 
+
+					<!--<li class="selected">
 						<a href="index.html">Home</a>
 					</li>
 					<li class="menu">
@@ -42,14 +52,14 @@
 					</li>
 					<li>
 						<a href="contact.html">Contact</a>
-					</li>
-				</ul> -->
+					</li> -->
+				</ul>
 			</div>
 		</div>
 		<div id="body" class="home">
 			<div class="header">
 				<div class="background-div">
-					<img src="../images/backround.webp" alt="white Hello World text on teal backround and green angle brackets" class="background-img">
+					<img src="../images/backround.webp" alt="weißer Hello World Text auf einem aquamarinen Hintergrund in spitzen, grünen Klammern." class="background-img">
 				</div>
 			</div>
 			<div class="body">
@@ -103,6 +113,23 @@
 			</div>
 		</div>
 	</div>
+	<div id="popup" class="popup-container">
+		<div class="popup-content">
+		  <span class="close-btn" onclick="closePopup()">&times;</span>
+		  <h2>Willkommen auf unserer Webseite!</h2>
+		  <p>Bundesverband Green Software e.V. bekommt in Kürze eine neue Webseite in einem frischen Design, daher wird die Entwicklung dieses Webauftritts nicht mehr verfolgt.</p>
+		   <p>Wir danken euch für euer Verständnis und hoffen euch schon bald mit dem neuen Look (positiv) zu überraschen.</p>
+		</div>
+	</div>
+	<script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("popup").style.display = "flex";
+        });
+
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
 </body>
 </html>
 
